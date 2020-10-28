@@ -2,6 +2,12 @@ package nz.ac.eit.blackjack;
 
 public class InputCollector
 {
+    /**
+     *
+     * @param input input string
+     * @return true for any input string beginning with Y and false for any input string beginning with N (not case sensitive)
+     * @throws InputNotYesOrNoException if the input string does not begin with Y or N
+     */
     public boolean collectYesOrNo(String input) throws InputNotYesOrNoException
     {
         char choice;

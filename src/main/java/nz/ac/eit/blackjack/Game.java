@@ -2,6 +2,11 @@ package nz.ac.eit.blackjack;
 
 public class Game
 {
+    /**
+     * @param humanScore Human score
+     * @param aiScore AI score
+     * @return 1 if the human wins, 0 if it is a draw and -1 if the AI wi
+     */
     public int decideWinner(int humanScore, int aiScore)
     {
         if (humanScore > 21)

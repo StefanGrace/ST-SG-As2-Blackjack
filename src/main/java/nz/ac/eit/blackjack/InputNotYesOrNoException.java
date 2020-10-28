@@ -1,5 +1,8 @@
 package nz.ac.eit.blackjack;
 
+/**
+ * stores and returns what the invalid input string was
+ */
 public class InputNotYesOrNoException extends Exception
 {
     private String text;
