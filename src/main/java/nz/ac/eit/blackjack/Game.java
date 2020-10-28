@@ -5,7 +5,7 @@ public class Game
     /**
      * @param humanScore Human score
      * @param aiScore AI score
-     * @return 1 if the human wins, 0 if it is a draw and -1 if the AI wi
+     * @return 1 if the human wins, 0 if it is a draw and -1 if the AI wins
      */
     public int decideWinner(int humanScore, int aiScore)
     {
